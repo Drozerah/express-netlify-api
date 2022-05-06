@@ -1,0 +1,14 @@
+[dev]
+  publish = "dist"
+  functions = "functions"
+
+[build]
+  publish = "dist"
+  functions = "functions"
+
+
+[[redirects]]
+  from = "/api/v1/*/:id/"
+  to = "/.netlify/functions/api/v1/:id/:splat"
+  status = 200
+

@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root{
+  --purple:#5b5be0;
+  --white:#ffffff;
+  --black: #333333;
+  --grey-ligthen:#E7E7E7;
+  --shadow-color:#d6d6d6;
+  --blue-ligthen: aliceblue; 
+}
+
+html {
+  background-color: var(--white);
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Shippori Mincho', serif;
+}
+
+body{
+  background:var(--white);
+  color: var(--black);
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+ul{
+  list-style: none;
+  width: 650px;
+}
+
+li{
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+code {
+  background: var(--grey-ligthen);
+  padding: 2px 5px;
+  margin-left: 5px;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 var(--shadow-color);
+  color: var(--purple);
+  font-weight: 700;
+}
+
+a{
+  color: var(--purple);
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+pre{
+  width: 650px;
+}
+
+pre code {
+  box-shadow: none;
+  background: none;
+}
+
+pre.active {
+  max-height: 300px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  overscroll-behavior: contain;
+  border: 1px solid var(--blue-ligthen);
+
+}
+
+code.hljs{
+  overflow-x: initial;
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "E4JuUSkVB4JNNq",
+    "createdTime": "2022-04-28T15:05:22.000Z",
+    "fields": {
+      "product_id": 2,
+      "product_description": "Sweet Bananas from India !",
+      "orders_lines": [
+        "kX5FcNk2mV6kjy"
+      ],
+      "product_stock": 1200,
+      "product_name": "banana",
+      "product_unit_price": 7,
+      "product_weight": 500,
+      "Created": "2022-04-28T15:05:22.000Z",
+      "LastModified": "2022-04-30T18:11:18.000Z"
+    }
+  },
+  {
+    "id": "NaLU8GwHJowXTu",
+    "createdTime": "2022-04-28T15:05:22.000Z",
+    "fields": {
+      "product_is_published": true,
+      "product_id": 1,
+      "product_description": "Testy apples first quality !",
+      "orders_lines": [
+        "TDXgZMIPhQSFx",
+        "CX3yQfHZBT6tcO"
+      ],
+      "product_stock": 200,
+      "product_name": "apple",
+      "product_unit_price": 5,
+      "product_weight": 25,
+      "Created": "2022-04-28T15:05:22.000Z",
+      "LastModified": "2022-04-29T12:55:35.000Z"
+    }
+  }
+]
